@@ -1,5 +1,2 @@
-build/
-dist/
-lib/
-nbproject/
-build.xml
+out/
+.idea/
