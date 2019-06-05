@@ -1,5 +1,5 @@
 
-package com.houarizegai.crypto;
+package com.houarizegai.cryptography.symmetric;
 
 /* Electronic Code Book */
 

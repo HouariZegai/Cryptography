@@ -1,4 +1,4 @@
-package com.houarizegai.crypto.crypto_algo1;
+package com.houarizegai.cryptography.symmetric.crypto_algo1;
 
 import java.util.Scanner;
 

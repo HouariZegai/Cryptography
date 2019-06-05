@@ -1,4 +1,4 @@
-package com.houarizegai.crypto;
+package com.houarizegai.cryptography.symmetric;
 
 /* Schéma de Feistel */
 

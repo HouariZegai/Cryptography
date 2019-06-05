@@ -1,4 +1,4 @@
-package com.houarizegai.crypto;
+package com.houarizegai.cryptography.symmetric;
 
 public class OFB {
 

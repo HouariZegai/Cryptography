@@ -1,6 +1,4 @@
-package com.houarizegai.main;
-
-import com.houarizegai.crypto.Feistel;
+package com.houarizegai.cryptography.symmetric;
 
 public class Main {
     public static void main(String[] args) {
