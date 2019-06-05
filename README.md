@@ -1,35 +1,28 @@
-# Symmetric Cryptography Algorithms
+#  Cryptography Algorithms
+
+![build](https://img.shields.io/jenkins/build/https/builds.apache.org/job/maven-box/job/maven/job/master.svg?style=flat-square)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## What is cryptography ?
 Cryptography is a method of protecting information and communications through the use of codes so that only those for whom the information is intended can read and process it. The pre-fix "crypt" means "hidden" or "vault" and the suffix "graphy" stands for "writing."
 
-### Algorithms
-<ol>
-  <li><a href="https://github.com/HouariZegai/Symmetric-Cryptography/blob/master/src/com/houarizegai/crypto/CBC.java">CBC</a></li>
-  <li><a href="https://github.com/HouariZegai/Symmetric-Cryptography/blob/master/src/com/houarizegai/crypto/CFB.java">CFB</a></li>
-  <li><a href="https://github.com/HouariZegai/Symmetric-Cryptography/blob/master/src/com/houarizegai/crypto/ECB.java">ECB</a></li>
-  <li><a href="https://github.com/HouariZegai/Symmetric-Cryptography/blob/master/src/com/houarizegai/crypto/OFB.java">OFB</a></li>
-  <li><a href="https://github.com/HouariZegai/Symmetric-Cryptography/blob/master/src/com/houarizegai/crypto/Feistel.java">Feistel</a></li>
-</ol>
+### Symmetric algorithms
+* [CBC](src/com/houarizegai/cryptography/symmetric/CBC.java)
+* [CFB](src/com/houarizegai/cryptography/symmetric/CFB.java)
+* [ECB](src/com/houarizegai/cryptography/symmetric/ECB.java)
+* [OFB](src/com/houarizegai/cryptography/symmetric/OFB.java)
+* [Feistel](src/com/houarizegai/cryptography/symmetric/Feistel.java)
+* Problem solving
+  * [Problem 1](src/com/houarizegai/cryptography/symmetric/crypto_algo1)
 
-### Problem solving
-<ul>
-  <li><a href="https://github.com/HouariZegai/Symmetric-Cryptography/tree/master/src/com/houarizegai/crypto/crypto_algo1" >Problem 1</a></li>
-</ul>
-
-### An example of using the CBC algorithm
-
-    String plainText = "01001001";
-    String key = "1010";
-    int vi = 4;
-    
-    CBC cbc = new CBC();
-    String cryptogram = cbc.encrypt(plainText, key, vi); // Encrypt plain msg
-    System.out.println("Encrypt : " + cryptogram);
-    
-    String plainTextResult = cbc.decrypt(cryptogram, key, vi); // Decrypt msg
-    System.out.println("Decrypt : " + plainTextResult);
- 
 ## Installation
-##### Clone this project by type in the bash the following command:
-    git clone https://github.com/HouariZegai/Symmetric-Cryptography.git
+1. Press the **Fork** button (top right the page) to save copy of this project on your account.
+2. Download the repository files (project) from the download section or clone this project by typing in the bash the following command:
+
+       git clone https://github.com/HouariZegai/Cryptography.git
+2. Import it in any IDE (like Intellij IDEA).
+3. Run the application :D
+
+## Contributing 💡
+If you want to contribute to this project and make it better with new ideas or algorithms, your pull request is very welcomed.
+If you find any issue just put it in the repository issue section, thank you.
