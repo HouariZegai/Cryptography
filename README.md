@@ -1,6 +1,5 @@
 #  Cryptography Algorithms
 
-![build](https://img.shields.io/jenkins/build/https/builds.apache.org/job/maven-box/job/maven/job/master.svg?style=flat-square)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## What is cryptography ?
